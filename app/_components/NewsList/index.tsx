@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import styles from "./index.module.css";
-// import Category from "../Category";
+import Category from "../Category";
 // import Date from "../Date";
 import { News } from "@/app/_libs/microcms";
 
@@ -57,7 +57,7 @@ export default function NewsList({ news }: Props) {
             <dl className={styles.content}>
               <dt className={styles.title}>{article.title}</dt>
               <dd className={styles.meta}>
-                <span className={styles.tag}>{article.category.name}</span>
+                <Category category={article.category}/>
                 <span className={styles.date}>
                   <Image
                     src="/clock.svg"
