@@ -17,6 +17,13 @@ export default function Header() {
         />
       </Link>
       {/* <Menu /> */}
+      <nav>
+        <ul>
+          <li>
+            <Link href="/members">メンバー</Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }
