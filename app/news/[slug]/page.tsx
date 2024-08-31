@@ -14,8 +14,8 @@ type Props = {
   };
 };
 
-// SSR
-export const revalidate = 0;
+// ISR
+export const revalidate = 60;
 
 export async function generateMetadata({
   params,
