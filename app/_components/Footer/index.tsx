@@ -10,11 +10,11 @@ export default function Footer() {
             <Link href="/news">ニュース</Link>
           </li>
           <li className={styles.item}>
-            <Link href="/members">メンバー</Link>
+            <Link href="/company">会社概要</Link>
           </li>
-          <li className={styles.item}>
+          {/* <li className={styles.item}>
             <Link href="/contact">お問い合わせ</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
       <p className={styles.cr}>© SIMPLE. All Rights Reserved 2024</p>
