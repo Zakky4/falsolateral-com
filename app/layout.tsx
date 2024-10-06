@@ -5,21 +5,21 @@ import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL('https://falsolateral.com'),
   title: {
-    template: '%s | シンプルなコーポレートサイト',
-    default: 'シンプルなコーポレートサイト',
+    template: '%s | falsolateral',
+    default: 'falsolateral',
   },
   description:
-    '「Next.js＋ヘッドレスCMSではじめる！ かんたん・モダンWebサイト制作入門」で作成されるサイトです。',
+    'falsolateral 公式サイト',
   openGraph: {
-    title: 'シンプルなコーポレートサイト',
+    title: 'falsolateral 公式サイト',
     description:
-      '「Next.js＋ヘッドレスCMSではじめる！ かんたん・モダンWebサイト制作入門」で作成されるサイトです。',
+      'falsolateral 公式サイト',
     images: ['/ogp.png'],
   },
   alternates: {
-    canonical: 'http://localhost:3000',
+    canonical: 'https://falsolateral.com',
   },
 };
 
