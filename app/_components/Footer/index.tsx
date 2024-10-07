@@ -9,10 +9,10 @@ export default function Footer() {
           <li className={styles.item}>
             <Link href="/news">ニュース</Link>
           </li>
-          <li className={styles.item}>
+          {/* <li className={styles.item}>
             <Link href="/company">会社概要</Link>
           </li>
-          {/* <li className={styles.item}>
+          <li className={styles.item}>
             <Link href="/contact">お問い合わせ</Link>
           </li> */}
         </ul>

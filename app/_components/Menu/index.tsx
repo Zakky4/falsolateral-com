@@ -18,10 +18,10 @@ export default function Menu() {
           <li>
             <Link href="/news">ニュース</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/company">会社概要</Link>
           </li>
-          {/* <li>
+          <li>
             <Link href="/contact">お問い合わせ</Link>
           </li> */}
         </ul>
